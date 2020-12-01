@@ -57,6 +57,10 @@ ZAPIER_SEND_DATA = {
 
 
 def upload_to_dropbox(target_file_name, source_file, dropbox_token, dropbox_folder):
+    print("Failed: upload file to Dropbox: {target_file_name}")
+      print("Failed: upload file to Dropbox: {source_file}")
+          print("Failed: upload file to Dropbox: {dropbox_token}")
+              print("Failed: upload file to Dropbox: {dropbox_folder}")
     '''Upload file to dropbox
     
     Args:
